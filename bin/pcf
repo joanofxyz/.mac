@@ -1,0 +1,14 @@
+#!/bin/bash
+if [[ $# -ne 1 ]]; then
+  echo "usage: pcf <program name>"
+  return 2
+fi
+pid=$(pgrep -f "$1")
+exit_code=$?
+if (( exit_code )); then
+  echo "couldn't find '$1' running"
+  return $exit_code
+fi
+echo "caffeinating '$1' (pid=$pid)"
+caffeinate -dims -w "$pid"
+echo "'$1' finished running"
