@@ -1,5 +1,3 @@
-tabspaces = 2
-
 [colors]
 draw_bold_text_with_bright_colors = true
 
@@ -61,52 +59,6 @@ style = "Light"
 x = 0
 y = 0
 
-[font_schemes.fisa]
-size = 14
-
-[font_schemes.fisa.bold]
-family = "Fisa Code"
-style = "Bold"
-
-[font_schemes.fisa.bold_italic]
-family = "Fisa Code"
-style = "Bold Italic"
-
-[font_schemes.fisa.italic]
-family = "Fisa Code"
-style = "Regular Italic"
-
-[font_schemes.fisa.normal]
-family = "Fisa Code"
-style = "Light"
-
-[font_schemes.fisa.offset]
-x = 0
-y = 0
-
-[font_schemes.ubuntu]
-size = 16
-
-[font_schemes.ubuntu.bold]
-family = "UbuntuMono Nerd Font"
-style = "Bold"
-
-[font_schemes.ubuntu.bold_italic]
-family = "UbuntuMono Nerd Font"
-style = "Bold Italic"
-
-[font_schemes.ubuntu.italic]
-family = "UbuntuMono Nerd Font"
-style = "Regular Italic"
-
-[font_schemes.ubuntu.normal]
-family = "UbuntuMono Nerd Font"
-style = "Regular"
-
-[font_schemes.ubuntu.offset]
-x = 0
-y = 0
-
 [[keyboard.bindings]]
 action = "ClearLogNotice"
 key = "L"
@@ -142,98 +94,6 @@ mods = "None"
 action = "Paste"
 key = "Paste"
 mods = "None"
-
-[schemes.gruvbox.bright]
-black = "#928374"
-blue = "#83a598"
-cyan = "#8ec07c"
-green = "#b8bb26"
-magenta = "#d3869b"
-red = "#fb4934"
-white = "#ebdbb2"
-yellow = "#fabd2f"
-
-[schemes.gruvbox.normal]
-black = "#282828"
-blue = "#458588"
-cyan = "#689d6a"
-green = "#98971a"
-magenta = "#b16286"
-red = "#cc241d"
-white = "#a89984"
-yellow = "#d79921"
-
-[schemes.gruvbox.primary]
-background = "#282828"
-foreground = "#ebdbb2"
-
-[schemes.gruvbox.search.focused_match]
-background = "#689d6a"
-foreground = "#282828"
-
-[schemes.gruvbox.search.matches]
-background = "#ebdbb2"
-foreground = "#282828"
-
-[[schemes.miasma.indexed_colors]]
-color = "0x222222"
-index = 16
-
-[schemes.miasma.bright]
-black = "#666666"
-blue = "#78824b"
-cyan = "#c9a554"
-green = "#5f875f"
-magenta = "#bb7744"
-red = "#685742"
-white = "#d7c483"
-yellow = "#b36d43"
-
-[schemes.miasma.normal]
-black = "#222222"
-blue = "#78824b"
-cyan = "#c9a554"
-green = "#5f875f"
-magenta = "#bb7744"
-red = "#685742"
-white = "#d7c483"
-yellow = "#b36d43"
-
-[schemes.miasma.primary]
-background = "#222222"
-foreground = "#c2c2b0"
-
-[schemes.oxocabron.bright]
-black = "#4A4A4A"
-blue = "#425C7B"
-cyan = "#427B61"
-green = "#5C7B42"
-magenta = "#61427B"
-red = "#7B425C"
-white = "#D4D4D4"
-yellow = "#7B6142"
-
-[schemes.oxocabron.normal]
-black = "#2B2B2B"
-blue = "#5E6873"
-cyan = "#5E736A"
-green = "#68735E"
-magenta = "#6A5E73"
-red = "#735E68"
-white = "#C4C4C4"
-yellow = "#736A5E"
-
-[schemes.oxocabron.primary]
-background = "#333333"
-foreground = "#B5B5B5"
-
-[schemes.oxocabron.search.focused_match]
-background = "#756c5b"
-foreground = "#363636"
-
-[schemes.oxocabron.search.matches]
-background = "#a1a1a1"
-foreground = "#363636"
 
 [scrolling]
 history = 5000
