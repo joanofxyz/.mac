@@ -1,37 +1,10 @@
+import = [
+	"~/.config/alacritty/oxocabron.toml",
+	# "~/.config/alacritty/oxocabron_light.toml",
+]
+
 [colors]
 draw_bold_text_with_bright_colors = true
-
-[colors.bright]
-black = "#4A4A4A"
-blue = "#425C7B"
-cyan = "#427B61"
-green = "#5C7B42"
-magenta = "#61427B"
-red = "#7B425C"
-white = "#D4D4D4"
-yellow = "#7B6142"
-
-[colors.normal]
-black = "#2B2B2B"
-blue = "#5E6873"
-cyan = "#5E736A"
-green = "#68735E"
-magenta = "#6A5E73"
-red = "#735E68"
-white = "#C4C4C4"
-yellow = "#736A5E"
-
-[colors.primary]
-background = "#333333"
-foreground = "#B5B5B5"
-
-[colors.search.focused_match]
-background = "#756c5b"
-foreground = "#363636"
-
-[colors.search.matches]
-background = "#a1a1a1"
-foreground = "#363636"
 
 [env]
 TERM = "alacritty"
